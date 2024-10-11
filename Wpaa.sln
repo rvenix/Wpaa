@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongParameterList", "LongPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatedCode", "DuplicatedCode\DuplicatedCode.csproj", "{5676F181-80C4-4429-9EDE-EB874324199F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageChains", "MessageChains\MessageChains.csproj", "{82D233A1-81E4-4226-A433-6792EA8D7032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5676F181-80C4-4429-9EDE-EB874324199F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5676F181-80C4-4429-9EDE-EB874324199F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5676F181-80C4-4429-9EDE-EB874324199F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D233A1-81E4-4226-A433-6792EA8D7032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D233A1-81E4-4226-A433-6792EA8D7032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D233A1-81E4-4226-A433-6792EA8D7032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D233A1-81E4-4226-A433-6792EA8D7032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
