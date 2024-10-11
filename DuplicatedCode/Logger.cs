@@ -10,15 +10,15 @@ namespace DuplicatedCode
     {
         public void LogError(string message, DateTime timestamp)
         {
-            Log(message, timestamp, LogTypeEnum.Error);
+            FormatLogMessage(message, timestamp, LogTypeEnum.Error);
         }
 
         public void LogWarning(string message, DateTime timestamp)
         {
-            Log(message, timestamp, LogTypeEnum.Warining);
+            FormatLogMessage(message, timestamp, LogTypeEnum.Warining);
         }
 
-        public void Log(string message, DateTime timestamp, string type)
+        public void FormatLogMessage(string message, DateTime timestamp, string type)
         {
             string formattedTimestamp = timestamp.ToString("yyyy-MM-dd HH:mm:ss");
             string formattedMessage = $"{type}: [{formattedTimestamp}] {message}";
