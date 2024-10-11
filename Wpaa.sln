@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{AF26A555-634D-42DB-9D18-F55573E9350B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongParameterList", "LongParameterList\LongParameterList.csproj", "{A90B0C14-882D-42B0-AC80-23D97FCF84FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongParameterList", "LongParameterList\LongParameterList.csproj", "{A90B0C14-882D-42B0-AC80-23D97FCF84FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatedCode", "DuplicatedCode\DuplicatedCode.csproj", "{5676F181-80C4-4429-9EDE-EB874324199F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A90B0C14-882D-42B0-AC80-23D97FCF84FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A90B0C14-882D-42B0-AC80-23D97FCF84FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A90B0C14-882D-42B0-AC80-23D97FCF84FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5676F181-80C4-4429-9EDE-EB874324199F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5676F181-80C4-4429-9EDE-EB874324199F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5676F181-80C4-4429-9EDE-EB874324199F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5676F181-80C4-4429-9EDE-EB874324199F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
