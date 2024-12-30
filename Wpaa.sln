@@ -11,17 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongParameterList", "LongParameterList\LongParameterList.csproj", "{A90B0C14-882D-42B0-AC80-23D97FCF84FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicatedCode", "DuplicatedCode\DuplicatedCode.csproj", "{5676F181-80C4-4429-9EDE-EB874324199F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicatedCode", "DuplicatedCode\DuplicatedCode.csproj", "{5676F181-80C4-4429-9EDE-EB874324199F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageChains", "MessageChains\MessageChains.csproj", "{82D233A1-81E4-4226-A433-6792EA8D7032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageChains", "MessageChains\MessageChains.csproj", "{82D233A1-81E4-4226-A433-6792EA8D7032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefusedBequest", "RefusedBequest\RefusedBequest.csproj", "{85732D44-486F-4FE7-A413-8A4BBD7D5185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefusedBequest", "RefusedBequest\RefusedBequest.csproj", "{85732D44-486F-4FE7-A413-8A4BBD7D5185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemporaryField", "TemporaryField\TemporaryField.csproj", "{7BD65F9B-216D-4E99-94C9-4B984CED42B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemporaryField", "TemporaryField\TemporaryField.csproj", "{7BD65F9B-216D-4E99-94C9-4B984CED42B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClumps", "DataClumps\DataClumps.csproj", "{C264998B-21F6-480E-9E25-E9BADBB7F888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataClumps", "DataClumps\DataClumps.csproj", "{C264998B-21F6-480E-9E25-E9BADBB7F888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{FF99F88F-CBD6-433F-91ED-FBBC94C841D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{FF99F88F-CBD6-433F-91ED-FBBC94C841D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{E7916A34-6EA9-4FE6-A9E6-0D80102F80AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{FF99F88F-CBD6-433F-91ED-FBBC94C841D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF99F88F-CBD6-433F-91ED-FBBC94C841D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF99F88F-CBD6-433F-91ED-FBBC94C841D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7916A34-6EA9-4FE6-A9E6-0D80102F80AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7916A34-6EA9-4FE6-A9E6-0D80102F80AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7916A34-6EA9-4FE6-A9E6-0D80102F80AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7916A34-6EA9-4FE6-A9E6-0D80102F80AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
