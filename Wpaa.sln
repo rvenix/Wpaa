@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{E7916A34-6EA9-4FE6-A9E6-0D80102F80AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{D5BA641E-5DA8-4B2D-BC84-7A871ACC29AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{D5BA641E-5DA8-4B2D-BC84-7A871ACC29AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{E49CD834-DF73-426F-8B85-6DF0087E5325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{D5BA641E-5DA8-4B2D-BC84-7A871ACC29AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5BA641E-5DA8-4B2D-BC84-7A871ACC29AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5BA641E-5DA8-4B2D-BC84-7A871ACC29AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49CD834-DF73-426F-8B85-6DF0087E5325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49CD834-DF73-426F-8B85-6DF0087E5325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49CD834-DF73-426F-8B85-6DF0087E5325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49CD834-DF73-426F-8B85-6DF0087E5325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
