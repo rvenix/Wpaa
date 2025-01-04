@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseTests", "GildedRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{111A401A-FF64-4220-8EF9-6D4D06F1FF78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{5CE5C0A6-3458-49B2-94D1-8BC1B8F0806C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE5C0A6-3458-49B2-94D1-8BC1B8F0806C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE5C0A6-3458-49B2-94D1-8BC1B8F0806C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE5C0A6-3458-49B2-94D1-8BC1B8F0806C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE5C0A6-3458-49B2-94D1-8BC1B8F0806C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
