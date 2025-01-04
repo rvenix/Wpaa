@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{5B7D20B9-83D6-44B7-8D0D-2FBD3E88BD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose", "GildedRose\GildedRose.csproj", "{5F3FA743-2AD3-4E3A-A2CA-CF1A4677E89D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRose", "GildedRose\GildedRose.csproj", "{5F3FA743-2AD3-4E3A-A2CA-CF1A4677E89D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRoseTests", "GildedRoseTests\GildedRoseTests.csproj", "{30E8BCBB-2E4F-47F2-9090-1C85E4BB5A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseTests", "GildedRoseTests\GildedRoseTests.csproj", "{30E8BCBB-2E4F-47F2-9090-1C85E4BB5A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{111A401A-FF64-4220-8EF9-6D4D06F1FF78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{30E8BCBB-2E4F-47F2-9090-1C85E4BB5A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E8BCBB-2E4F-47F2-9090-1C85E4BB5A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E8BCBB-2E4F-47F2-9090-1C85E4BB5A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111A401A-FF64-4220-8EF9-6D4D06F1FF78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
